@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Survey Form </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-------------------------- Header ----------------------->
+        <div class="heading">
+            <h2> Survey Form - COVID 19 </h2>
+        </div>
+
+        <form style="text-align: center;">
+            <br>
+            <label> Name </label>
+            <input type="text" name="Name" placeholder="Enter your name....">
+            <br><br>
+            <label>  Age </label>
+            <select name="Age">
+                <option value="" selected disabled hidden> Age </option>
+                <option value="none"> None </option>
+                <option value="0-10"> 0 - 5 years </option>
+                <option value="10-20"> 10 - 20 years </option>
+                <option value="20-30"> 20 - 30 years </option>
+                <option value="30-40"> 30 - 40 years </option>
+                <option value="40-50"> 40 - 50 years </option>
+                <option value="50-60"> 50 - 50 years </option>
+                <option value="60+"> 60+ years </option>
+            </select>
+            <br><br>
+            <label> Gender </label>
+            <select name="Gender">
+                <option value="" selected disabled hidden> Gender </option>
+                <option value="Male"> Male </option>
+                <option value="female"> Female </option>
+                <option value="Other"> Other </option>
+            </select>
+            <br><br>
+            <label> Contact </label>
+            <input type="text" name="contactnumber" placeholder="Enter your number......">
+            <br><br>
+            <label> Email ID </label>
+            <input type="email" name="email" placeholder="Enter your Email ID ......">
+            <br><br>
+            <label> Country </label>
+            <input type="text" name="country" placeholder="Enter your Country ......">
+
+            <br><br>
+            <label> Have you been vaccinated against COVID 19?</label>
+            <br><br>
+            <input type="radio" id="yes" name="vaccination" value="Yes"> Yes 
+            <input type="radio" id="no" name="vaccination" value="No"> No
+            <br><br>
+            <label> If yes, which vaccine did you use?</label>
+            <textarea rows="4" cols="5"> </textarea>
+            <br><br>
+            <button type="submit" class="btn"> Submit </button>
+        </form>
+
+        <!-------------------------- Footer section --------------------------->
+        <footer>
+            <div class="container">
+                <h2> Contact Us </h2>
+                <p> For any queries or assistance, feel free to contact me at: </p>
+                <div class="icons">
+                <a href="#"> <i class='bx bxl-facebook-circle'></i> </a>
+                <a href="#"> <i class='bx bxl-instagram-alt'></i> </a>
+                <a href="#"> <i class='bx bxl-youtube'></i> </a>
+                <a href="#"> <i class='bx bxl-twitter'></i> </a>
+                </div>
+            </div>
+        </footer>
+
+
+
+        
+
+
+    
+    </body>
+</html>

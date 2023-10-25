@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #f5f6fa;
+  
+}
+.heading{
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 3rem;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999;
+    color: rgb(240, 28, 106);
+}
+#form{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+label {
+    color: black;
+    font-size: 20px;
+    margin-top: 20%;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .2s ease-in-out;
+}
+input[type="text"], select, textarea {
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+}
+input[type="number"], input[type="email"] {
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+}
+textarea{
+    resize: vertical;
+}
+.btn{
+    background: linear-gradient(toright, #ff6f61, #e53935);
+    border: 1px solid #000;
+    box-shadow: 0 0 10px 20px rgba(0,0,0,.125);
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(.9);
+    transform: rotateX('180');
+}
+/*********************** footer ***************************/
+footer{
+    margin-top: 5%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container h2{
+    font-size: 2em;
+    list-style: 1.5;
+    text-align: center;
+}
+.container p{
+    font-size: .8em;
+    line-height: 1.5;
+    text-align: center;
+}
+.container .icons{
+    list-style: none;
+    display: inline-flex;
+    gap: 1rem;
+    margin-left: 5rem;
+}
+.container a{
+    justify-content: space-around;
+    color: blue;
+    transition: all .3s ease;
+}
+.container a i{
+    font-size: 2em;
+}
+.container a:hover{
+    color: red;
+
+}
+
